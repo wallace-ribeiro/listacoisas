@@ -35,6 +35,6 @@ app.post('/coisas', function(req, res) {
   res.send('OK');
 });
 
-app.listen(80, function () {
-  console.log('Example app listening on port 80!');
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
 });
